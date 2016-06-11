@@ -1,0 +1,54 @@
+[submodule "blog"]
+	path = blog
+	url = git@github.com:Phildo/blog
+[submodule "games/boids"]
+	path = games/boids
+	url = git@github.com:Phildo/boids
+[submodule "games/lizard"]
+	path = games/lizard
+	url = git@github.com:Phildo/lizard
+[submodule "games/monologue"]
+	path = games/monologue
+	url = git@github.com:Phildo/monologue
+[submodule "games/sell-out"]
+	path = games/sell-out
+	url = git@github.com:Phildo/sell-out
+[submodule "games/fprx_coolbooth"]
+	path = games/fprx_coolbooth
+	url = git@github.com:Phildo/fprx_coolbooth
+[submodule "games/mbtf"]
+	path = games/mbtf
+	url = git@github.com:Phildo/mbtf
+[submodule "games/netpong"]
+	path = games/netpong
+	url = git@github.com:Phildo/netpong
+[submodule "games/pasiphae"]
+	path = games/pasiphae
+	url = git@github.com:Phildo/pasiphae
+[submodule "games/what-doesnt-kill-you"]
+	path = games/what-doesnt-kill-you
+	url = git@github.com:Phildo/what-doesnt-kill-you
+[submodule "games/zen-fighter"]
+	path = games/zen-fighter
+	url = git@github.com:Phildo/zen-fighter
+[submodule "games/zomb"]
+	path = games/zomb
+	url = git@github.com:Phildo/zomb
+[submodule "misc/astar-visualizer"]
+	path = misc/astar-visualizer
+	url = git@github.com:Phildo/astar-visualizer
+[submodule "misc/game_design_machine"]
+	path = misc/game-design-machine
+	url = git@github.com:Phildo/game_design_machine
+[submodule "misc/phils-game-of-life"]
+	path = misc/phils-game-of-life
+	url = git@github.com:Phildo/phils-game-of-life
+[submodule "misc/moustache-sim-2014"]
+	path = misc/moustache-sim-2014
+	url = git@github.com:Phildo/moustache-sim-2014
+[submodule "misc/webgl-vedit"]
+	path = misc/webgl-vedit
+	url = git@github.com:Phildo/webgl-vedit
+[submodule "misc/js-spline"]
+	path = misc/js-spline
+	url = git@github.com:Phildo/js-spline

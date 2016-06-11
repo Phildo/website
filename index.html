@@ -1,0 +1,195 @@
+<html>
+<head>
+<title>Phildo Games</title>
+<link rel="icon" type="image/png" href="assets/icon.png" />
+<link rel="stylesheet" type="text/css" href="css.css"></link>
+<script type="text/javascript">
+function goto(url) //lol @ web dev
+{
+  window.location = url;
+}
+function gotodo(url)
+{
+  window.location = "http://phildogames.com/"+url;
+}
+</script>
+</head>
+<body>
+<div id="background" class="background"></div>
+<div class="main">
+  <div class="title"><img src="assets/logo_big.png" style="position:relative; top:15px; left:-10px; height:50px; width:50px;"></img>phildogames</div>
+  <div class="blog_body">
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    Hey! Here's some stuff I did. Most of it is just funky experimentation. A good amount of it is buggy garbage. Displayed in no particular order. Ok. Well. I guess I'll just leave you to it.
+    <br />
+    <br />
+    (If you want my <a href="http://www.github.com/Phildo">github</a>, well, there it is. I also work on <a href="http://www.arisgames.org">ARISgames.org</a>.)
+    <br />
+    <br />
+
+    <div class="subtitle">Scrimshaw (IN PROGRESS)</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/scrimshaw.gif" class="pic" onclick="goto('games/scrimshaw')"/> </td>
+      <td> Mobile game set on the high seas. Navigate an 1850's whaling ship over a landless alien planet. Uncover what lies beyond the endless ocean.</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">PixQL</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/pixql.bmp" class="pic" onclick="goto('http://github.com/Phildo/PixQL')"/> </td>
+      <td> SQL-like language for image editing. I promise it's useful- give it a try!</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">Four Generals (POSTPPONED)</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/fourgenerals.png" class="pic" /> </td>
+      <td> A mobile game with a table top aesthetic. Locally networked across iOS, Android, Mac/PC. Four players come around a table to take the roles of the cardinal generals. Partner with the player opposite you to destroy your opposition.</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">Monologue</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/monologue.png" class="pic" onclick="gotodo('games/monologue')"/> </td>
+      <td> Made for TrainJam 2015. You are a supervillian who must deliver his final monologue to the trapped hero. But be quick, or the hero will escape!</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">What Doesn't Kill You</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/what-doesnt-kill-you.png" class="pic" onclick="gotodo('games/what-doesnt-kill-you')"/> </td>
+      <td> First game for OneGameAMonth 2013. Getting hurt gets you experience. Experience gets you stats. Open yourself up for double damage and quadruple experience. Can heal at will. Stay low health for big XP boosts. "What Doesn't Kill You Makes You Stronger" #clever.</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">Pasiphae</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/pasiphae.png" class="pic" onclick="gotodo('games/pasiphae')"/> </td>
+      <td> Second game for OGAM. Made A* and pulled this game out of my butt to accomodate it. You are the white bull trying to escape Pasiphae in her lustful rampage. Use your magic to create walls to bide your time. Seek lantern fuel to illuminate your passage. Accept your inevitable doom in the resulting labyrinth.</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">A* Toy</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/astar.png" class="pic" onclick="gotodo('misc/astar-visualizer')"/> </td>
+      <td> A* implementation visualizer. Check out <a href="https://www.github.com/Phildo/js-astar">the githubz</a> if you want to use it/ learn/ mock my programming ability.</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">Zen Fighter</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/zen-fighter.png" class="pic" onclick="gotodo('games/zen-fighter')"/> </td>
+      <td> Made for that one Ludum Dare where the theme was "minimalism". Literally fight forever. A look at how far 2 sound effects and a clone of sonic's jump-dash-attack can take you.</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">Net Pong</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/netpong.png" class="pic" onclick="gotodo('games/netpong')"/> </td>
+      <td> Wanted to learn about networking, ended up learning about Node. You win some you lose some.<br />Anyways, this probably won't work anymore. But the idea was there is this ONE instance of pong being played on the internet. And to play it, you'd have to wait in line and watch the current people playing. But yeah that's it. Cool idea though, right?</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">Mavis Beacon Teaches Fighting</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/netpong.png" class="pic" onclick="gotodo('games/mbtf')"/> </td>
+      <td> Again, probably won't work for now. Used same model as NetPong. But it's a multiplayer fighting game where you'd have to type out your actions. Like, instead of "p" to punch. You'd have to type out "P-U-N-C-H" and if you got hit during it, you'd have to start over. Not gonna lie, I still think this idea is pretty baller. Might come back to it later.</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">zomb</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/zomb.png" class="pic" onclick="gotodo('games/zomb')"/> </td>
+      <td> Prototype of low-pixel 3d WebGL renderer. You're a zombie. But right now all you can do is walk around... Another victim of "build cool tech and have nothing to do with it" :(</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">fprx_coolbooth</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/fprx_coolbooth.png" class="pic" onclick="gotodo('games/fprx_coolbooth')"/> </td>
+      <td>I do not remember why it is called that. But its pretty and fun to play with. Made with Phil Deisinger.</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">Sell Out</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/sell-out.png" class="pic" onclick="gotodo('games/sell-out')"/> </td>
+      <td>A terrible kitty-cannon clone made for some shitty lenovo competition. I got a t-shirt out of it. Moral of the story: don't do shitty corporate competitions. I'm gonna slap it.</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">Boids</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/boids.png" class="pic" onclick="gotodo('games/boids/Boids.html')"/> </td>
+      <td>Assignment to make a game using the "flocking" algorithm. Ended up with an achievment hunter space invaders thing. Made w/ Andrew Zoerb.</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">Boids Toy</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/boidstoy.png" class="pic" onclick="gotodo('games/boids/BoidsToy.html')"/> </td>
+      <td>Fun to tweak boids algorithm.</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">Game Design Machine</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/game-design-machine.png" class="pic" onclick="gotodo('misc/game-design-machine')"/> </td>
+      <td>A wonderful machine that does the hard work of game design for you! Just put in the categories and options, and pull the lever! (Saving/Loading might not work anymore)</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">vedit</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/webgl-vedit.png" class="pic" onclick="gotodo('misc/webgl-vedit')"/> </td>
+      <td>A really bad in-browser 3d vertex editor. Can "upload" and "download" json formatted vertex data. Really, a one-off tool I made to create the arms in the zomb game.</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">spline</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/spline.png" class="pic" onclick="gotodo('misc/js-spline/sample.html')"/> </td>
+      <td>A sample use of js-spline and spline-display (<a href="https://www.github.com/Phildo/js-spline">download here</a>). Also, a <a href="http://phildogames.com/blog/spline.html">blog post on splines can be found here</a>.</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">Conways Game of Life</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/gol.png" class="pic" onclick="gotodo('misc/phils-game-of-life')"/> </td>
+      <td>Everyone's gotta implement CGoL at least once. <a href="https://github.com/Phildo/js-gol">Here's</a> a nicely packaged JS api for creating/manipulating a GOL grid on your website!</td>
+    </tr> </table>
+    <br />
+
+    <div class="subtitle">Moustache Sim 2014</div>
+    <br />
+    <table> <tr>
+      <td> <img src="assets/screens/moustache-sim-2014.png" class="pic" onclick="gotodo('misc/moustache-sim-2014')"/> </td>
+      <td>Made for a local hackathon. I won first prize. In everyone's hearts. (I did not actually win first prize.) (Rights reserved Nick Heindl)</td>
+    </tr> </table>
+    <br />
+
+  </div>
+</div>
+
+</body>
+</html>
+
