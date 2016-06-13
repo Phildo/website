@@ -2,11 +2,13 @@
 
 cat index_top.html.part > index.html;
 
-find ./media -type f -print | sed 's@.*/@@' | sort -n | while read file ; do
-  if [[ ! $file =~ (.gif|.png) ]] ; then
-    echo "<a href=\"media/"$file"\"><img class=\"screen\" src=\"assets/media_play.png\" /></a>" >> index.html
-  else
+find ./media -maxdepth 1 -type f -print | sed 's@.*/@@' | sort -nr | while read file ; do
+  if [[ $file =~ .gif ]] ; then
+    echo "<a href=\"media/"$file"\"><img class=\"screen\" src=\"media/preview/"$file"\" /></a>" >> index.html
+  elif [[ $file =~ .png ]] ; then
     echo "<a href=\"media/"$file"\"><img class=\"screen\" src=\"media/"$file"\" /></a>" >> index.html
+  else # most likely .mov
+    echo "<a href=\"media/"$file"\"><img class=\"screen\" src=\"assets/media_play.png\" /></a>" >> index.html
   fi
 done
 
