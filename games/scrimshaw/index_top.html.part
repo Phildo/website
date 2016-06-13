@@ -1,0 +1,28 @@
+<html>
+<head>
+<style>
+body,div,span
+{
+  margin:0px;
+  padding:0px;
+  font-family:Arial;
+}
+.screen
+{
+  display:block;
+  float:left;
+  border:4px solid #000044;
+  margin:10px;
+  max-width:400px;
+  max-height:100px;
+}
+</style>
+</head>
+<body>
+
+<div id="header" style="width:100%; height:100px; background-color:#000044; color:#FFFFFF; border:4px solid #000044;">
+  <div style="margin:10px; font-size:30px;"> Scrimshaw </div>
+  <div style="margin:10px; font-size:14px;"> Web page not really yet created... But for now, here are some screenshots!</div>
+</div>
+
+<div id="screens">
