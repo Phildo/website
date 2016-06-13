@@ -1,0 +1,4 @@
+
+genmedia:
+	./genmedia.sh
+
