@@ -52,3 +52,9 @@
 [submodule "misc/js-spline"]
 	path = misc/js-spline
 	url = git@github.com:Phildo/js-spline
+[submodule "misc/color-inspector"]
+	path = misc/color-inspector
+	url = git@github.com:Phildo/color_inspector
+[submodule "dodb"]
+	path = dodb
+	url = git@github.com:Phildo/dodb
