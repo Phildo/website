@@ -1,5 +1,108 @@
 <html>
+<style>
+.primary
+{
+  font-size:16px;
+}
+.secondary
+{
+  font-size:14px;
+}
+.tertiary
+{
+  font-size:14px;
+}
+.emphasis
+{
+  font-weight:bold;
+}
+
+</style>
 <body>
+<span class="emphasis">Hey!</span> I'm a developer who makes twitch widgets/interactives. If interested in getting one for your stream, shoot me an email at phildo211 at gmail!<br />
+<br />
+I have a bunch of experience developing games and other interactions, so we're able to do whatever crazy interactions/visualizations/systems you can come up with! (We can think way bigger than "play an animation when someone subscribes"...)<br />
+(Rates dependent on complexity of widget- just let me know your budget, or ask for a quote for an idea.)<br />
+<br />
+<br />
+Here's an example of a quick commission I did for Caleb Hart's channel (<a href="https://www.twitch.tv/calebhart42">https://www.twitch.tv/calebhart42</a>).<br />
+Quick note: this is a <i>very simple</i> example of the kind of thing we could make for your stream. See below for new ideas I want a reason to try out!<br />
+<br />
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<div><span class="emphasis">XBOSS</span></div>
+Custom megaman themed bitboss widget<br />
+<br />
+<span class="primary">- <span class="emphasis">Fully</span> <span class="emphasis">implements</span> rules of the regular <span class="emphasis">bitboss</span> widget</span><br />
+<br />
+<span class="primary">- Boss image replaced with boss defeater's avatar</span><br />
+<span class="secondary">- - If user has no avatar, can place custom image (in this case, it just uses Caleb's)</span><br />
+<br />
+<span class="primary">- <span class="emphasis">Custom</span> animations</span><br />
+<span class="secondary">- - Idle blink animation</span><br />
+<span class="secondary">- - <span class="emphasis">Dynamic</span> attack animation</span><br />
+<span class="tertiary">- - - Shoots <span class="emphasis">exact</span> <span class="emphasis">#</span> of bits donated</span><br />
+<span class="tertiary">- - - Each bit is <span class="emphasis">fully</span> <span class="emphasis">simulating</span> physics/collision (not prebaked!)</span><br />
+<span class="tertiary">- - - Bit type dependent on bit range donated</span><br />
+<span class="tertiary">- - - Collision against boss pushes boss back</span><br />
+<span class="secondary">- - Death/takeover animation</span><br />
+<span class="secondary">- - Death <span class="emphasis">Sound</span> plays on takeover</span><br />
+<span class="secondary">- - <span class="emphasis">Custom</span> health bar</span><br />
+<span class="secondary">- - "Exhausted" animation when boss at <span class="emphasis">&lt;</span> <span class="emphasis">25%</span> <span class="emphasis">health</span><br</span> />
+<br />
+<span class="primary">- <span class="emphasis">Queues</span> up multiple <span class="emphasis">simultaneous</span> donations, ensuring each donator gets a full shot/display</span><br />
+<br />
+<span class="primary">- Local <span class="emphasis">saving</span> of current boss/hp/etc.. (cookies), remote saving (my server), or both, or neither</span><br />
+<br />
+<span class="primary">- <span class="emphasis">Chat</span> <span class="emphasis">commands</span> that only listen to whitelisted set of users</span><br />
+<span class="secondary">- - "xboss setuser phildo3" - sets current boss based on username</span><br />
+<span class="secondary">- - "xboss sethp 123" - sets hp</span><br />
+<span class="secondary">- - "xboss setvol 0.1" - sets volume of death sounds</span><br />
+<span class="secondary">- - "xboss RESET" - clears current boss (both locally and on server)</span><br />
+<span class="secondary">- - "xboss shoot 12345" - simulates a donation of that many bits</span><br />
+<span class="secondary">- - "xboss anim 5" - plays specified animation (all animations are given a number value)</span><br />
+<br />
+<span class="primary">- <span class="emphasis">Just</span> <span class="emphasis">actually</span> <span class="emphasis">works.</span> No bugs you're just expected to shrug off/deal with. (if any ever do come up, I'll make sure it's fixed asap)</span><br />
+<br />
+<span class="primary">- Jumps whenever anyone in chat says "jump" (lol)</span><br />
+<br />
+</td>
+<td width="50%">
+Screenshot:<br />
+<img src="assets/xboss.png" style="border: 1px solid black;"></img>
+<br />
+Vid:<br />
+<video controls style="border: 1px solid black;">
+  <source src="assets/xboss.mov" type="video/mp4">
+</video>
+<br />
+In stream:<br />
+<img src="assets/calebxboss.png" style="border: 1px solid black;"></img>
+<br />
+</td>
+</tr>
+</table>
+<br />
+<br />
+Some Ideas I'd like to collab on: (email me @ phildo211 at gmail if interested, or if you have your own ideas!)<br />
+Also: all of these ideas can be themed to fit whatever you want!<br />
+<br />
+<span class="primary">- Take the bitboss widget to another level of interactivity</span><br />
+<span class="secondary">- - Status effect donations? Have certain donations result in "poisoning" the boss, etc...</span><br />
+<span class="secondary">- - Random events, IE certain donations do double damage, or play special animations</span><br />
+<br />
+<span class="primary">- Twitchagatchi</span><br />
+<span class="secondary">- - Ok that name is stupid, but like a tomagotchi that is interacted with via donations or chat messages</span><br />
+<br />
+<span class="primary">- TwitchRPG</span><br />
+<span class="secondary">- - Like bitboss, but instead of a donation = an attack, it powers up a character</span><br />
+<span class="secondary">- - The game is just a constant timer (10 minutes or something), and whenever the timer expires, a fight occurs</span><br />
+<span class="secondary">- - For example: character fights a Lvl1 monster, and if they are powerful enough, it is defeated. Level up!</span><br />
+<span class="secondary">- - If not, they die- back to level 0!</span><br />
+<span class="secondary">- - If chat wants to get far, they have to work together to power up the character in time</span><br />
+<span class="secondary">- - (Note that powerups can be donations, or just chat messages, or whispers, or whatever)</span><br />
+<br />
 </body>
 </html>
 
