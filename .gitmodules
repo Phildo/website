@@ -1,6 +1,3 @@
-[submodule "blog"]
-	path = blog
-	url = git@github.com:Phildo/blog
 [submodule "games/boids"]
 	path = games/boids
 	url = git@github.com:Phildo/boids
