@@ -55,3 +55,6 @@
 [submodule "dodb"]
 	path = dodb
 	url = git@github.com:Phildo/dodb
+[submodule "streamdoodle"]
+	path = streamdoodle
+	url = git@github.com:Phildo/streamdoodle
