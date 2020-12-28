@@ -58,3 +58,6 @@
 [submodule "streamdoodle"]
 	path = streamdoodle
 	url = git@github.com:Phildo/streamdoodle
+[submodule "gnometower"]
+	path = gnometower
+	url = git@github.com:Phildo/gtweb
